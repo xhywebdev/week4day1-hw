@@ -311,7 +311,7 @@ form input[type="email"] {
 }
 
 form input[type="submit"] {
-    background-color: #4977D1;
+    /* background-color: #4977D1; */
     color: #FFF;
     width: 100px;
     height: 30px;
@@ -345,9 +345,31 @@ form textarea {
 .selectmenu,
 .commentbox {
     margin-top: 1em;
-    margin-bottom: 1em;
+    /* margin-bottom: 1em; */
 }
 
 .commentbox label {
     display: block;
+}
+
+.randomcode{
+    width: 500px;
+    padding-left: 1.3em;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.randomcode input[type="text"]{
+    display: inline-block;
+    width: 200px;
+    margin-right: 10px;
+}
+
+.randomcode p {
+    display: flex;
+    align-items: center;
+    background-color: #cdcdcd;
+    height: 40px;
+    padding: 0px 10px;
+
 }

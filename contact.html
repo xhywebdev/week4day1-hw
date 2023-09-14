@@ -88,8 +88,14 @@
                             <textarea></textarea>
                         </div>
 
+                        <!-- Random Codes -->
+                        <div class="randomcode">
+                            <input type="text" name="randomcode" placeholder="Enter characters">
+                            <p id="codes"></p>
+                        </div>
+                        
                         <div class="button">
-                            <input type="submit" value="Inquire">
+                            <input id="submit" type="submit" value="Inquire">
                         </div>
                     </fieldset>
                 </form>
@@ -115,16 +121,9 @@
         </footer>
     </div>
     <!-- End Container -->
-    <script>
-        function partners() {
-            var partners = ['bustour', 'cabinrental', 'campingadv', 'collegetours', 'rentalbike', 'tourgroup']
-            for (partner of partners) {
-                var img = `<li class="partner"><img src="images/partners/partner-${partner}.png"></li>`;
-                document.getElementById("partners").innerHTML += img;
-            }
-        }
-        partners();
-    </script>
+    <!-- JavaScript Codes -->
+    <script src="js/site_scripts.js"></script>
+    <script src="js/randomcodes.js"></script>
 </body>
 
 </html>
